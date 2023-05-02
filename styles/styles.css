@@ -1,0 +1,49 @@
+.formSetContainer{
+    border-radius: 20px;
+    box-shadow: 1px 1px;
+    align-content: center;
+   
+}
+.formSetContainer:focus{
+    outline:none;
+
+}
+.formInput{
+    border-radius: 20px;
+    border:bolder;
+}
+.formInput :hover{
+    box-shadow: 50%;
+
+}
+.button-submit{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    transition-duration: 1s;
+}
+.button-submit:hover{
+    background-color: white;
+    color:black;
+    align-self: center;
+    transition-duration:1s;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:rgb(232,23,93);
+    font-family: 'Lucida Sans';
+    color: white;
+}
+.nav-item{
+    color:white;
+}
+div.project-card{
+    width: 250px;
+    border-radius: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
